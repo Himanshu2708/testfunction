@@ -1,0 +1,12 @@
+{
+    "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "daysBack": "3",
+    "AzureEALegacy": "1",
+    "KEYVAULT": "cloudinformdev",
+    "DataLakeName": "cloudinformdev",
+    "cloudinformdev": "74093018"
+  }
+}

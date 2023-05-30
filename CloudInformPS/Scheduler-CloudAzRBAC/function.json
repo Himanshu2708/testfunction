@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "Timer",
+      "schedule": "0 30 14 * * 3",
+      "direction": "in",
+      "type": "timerTrigger"
+    }
+  ],
+  "scriptFile": "PermissionReportScheduler.ps1"
+}

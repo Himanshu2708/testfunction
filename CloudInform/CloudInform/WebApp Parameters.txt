@@ -1,0 +1,32 @@
+M365ReportsDownload Configuration
+===========================
+DataLake container: m365
+
+APP SERVICE Configuration
+* KEYVAULT  -->	Name of the keyvault where the secrets are stored.
+* DataLakeName --> Name of the keyvault to upload the report CSV files
+* m365container --> Name of the container in the keyvault to upload the report CSV files
+* GPCBigQueryProject
+* GPCBigQueryDatabase
+* GPCBigQueryTable
+* DaysBack
+* AzureEALegacy
+* Enrollment
+* GCP
+* DataLakeName
+* AzureADName  --> Name of the Azure AD
+* M365 
+* PSAPI --> Name of the PowerShell Function
+
+
+KEYVAULT secrets
+* ApplicationID --> SPN ID that runs the queries
+* ApplicationSecret --> SPN Password
+* TenantID --> M365 TenantID.
+* EnrollmentAPIKey-<enrollment>   --> Stores the enrollment API key
+* GPCsecret --> JSON with GCP Connection String
+* DataLakeKEY --> Storage Account Access Key for generating SAS Token
+
+
+
+
